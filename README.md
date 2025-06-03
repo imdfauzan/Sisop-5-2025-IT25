@@ -171,15 +171,6 @@ Pada suatu hari, anda merasa sangat lelah dari segala macam praktikum yang sudah
    * `link` : menggabungkan `bootloader.bin`, `kernel.o`, `kernel_asm.o`, dan `std_lib.o` menjadi `floppy.img`.
    * `build` : menjalankan perintah `prepare`, `bootloader`, `stdlib`, `kernel`, dan `link`.
 
-### Video Demonstrasi
-
-[Akses Video dalam Assets](./assets/demo.mp4)
-
-<video width="600" controls>
-  <source src="https://github.com/imdfauzan/Sisop-5-2025-IT25/blob/9750c4ba43af9fe3efcb46824ca478300282f458/assets/demo.mp4?raw=true" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
 ## Laporan
 
 Fitur Utama EorzeOS
@@ -277,3 +268,9 @@ user> yogurt
 gurt> sygau
 ```
 Menambahkan unsur humor, randomisasi, dan emotional touch yang jarang ditemui dalam terminal biasa.
+
+## Video Hasil Pengerjaan
+
+[Akses Video dalam Assets](./assets/demo.mp4)
+
+https://github.com/user-attachments/assets/998485da-87fb-45c2-8415-c4ff1df811a2
