@@ -17,8 +17,8 @@ Imam Mahmud Dalil Fauzan | 5027241100
   - [Source](#source)
   - [Headers](#headers)
   - [Makefile](#makefile)
-  - [Video Demonstrasi](#video-demonstrasi)
 - [Laporan](#laporan)
+- [Video Hasil Pengerjaan](#video-hasil-pengerjaan)
 
 ## Soal
 
