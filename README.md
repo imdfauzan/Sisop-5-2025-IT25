@@ -4,8 +4,9 @@
 
 Nama | NRP
 --- | ---
-Amoes Noland | 5027231028
-Rafi' Afnaan Fathurrahman | 5027231040
+Tiara Putri Prasetya | 5027241013
+Danuja Prasasta Bastu | 5027241037
+Imam Mahmud Dalil Fauzan | 5027241100
 
 ## Daftar Isi
 
@@ -174,9 +175,105 @@ Pada suatu hari, anda merasa sangat lelah dari segala macam praktikum yang sudah
 
 [Akses Video dalam Assets](./assets/demo.mp4)
 
-https://github.com/user-attachments/assets/1cfa66b1-b2f5-4e3e-a4b2-ec8b012f6fbb
-
+<video width="600" controls>
+  <source src="https://github.com/imdfauzan/Sisop-5-2025-IT25/blob/9750c4ba43af9fe3efcb46824ca478300282f458/assets/demo.mp4?raw=true" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Laporan
 
-> Isi sesuai pengerjaan.
+Fitur Utama EorzeOS
+
+1. Echo Mode (Default Behavior).
+Jika input bukan command valid, maka akan otomatis di-echo kembali.
+
+Contoh:
+```
+user> Hello!
+Hello!
+user> This is Mini OS
+This is Mini OS
+```
+Berguna sebagai fallback mechanism dan memperjelas batas antara perintah valid vs tidak.
+
+2. Gurt Mode: Sistem Tukar-Kata.
+Mode ini mendefinisikan dua kata kunci unik: yo dan gurt. Ketika pengguna mengetik salah satunya, output adalah pasangannya.
+
+Contoh:
+```
+user> yo
+gurt
+user> gurt
+yo
+```
+Simbolisasi interaksi unik antara sistem dan pengguna, membentuk identitas karakter terminal.
+
+3. Username Customization.
+Pengguna bisa mengganti nama tampilan di terminal.
+
+`user <nama>`: Mengubah nama pengguna
+
+`user`: Kembali ke nama default user
+
+Contoh:
+```
+user> user Hana
+Username changed to Hana
+Hana> user
+Username changed to user
+```
+Mendukung personalization, cocok jika ingin menggunakan untuk CLI roleplay atau testing multi-user behavior.
+
+4. Grand Company Terminal Theme.
+Sistem ini mengambil inspirasi dari Grand Company di Final Fantasy XIV. Setiap perintah mengubah suasana terminal:
+
+Perintah | Warna Teks | Nama User Baru
+--- | --- | ---
+`grandcompany maelstrom` | Merah | `@Storm`
+`grandcompany twinadder` | Kuning | `@Serpent`
+`grandcompany immortalflames` | Biru | `@Flame`
+`clear` | Netral (putih) | Hapus suffix Grand Company
+
+
+Contoh:
+```
+gurt> grandcompany maelstrom
+-- terminal jadi merah --
+gurt@Storm> clear
+-- terminal bersih & netral --
+Menambah dimensi visual dan identitas organisasi fiktif ke CLI.
+```
+
+5. Kalkulator Mini.
+Mendukung operasi matematika dasar:
+
+`add x y` – Penjumlahan
+
+`sub x y` – Pengurangan
+
+`mul x y` – Perkalian
+
+`div x y` – Pembagian
+
+Contoh:
+```
+user> add 5 3
+8
+user> mul -2 4
+-8
+```
+Dapat menjadi dasar untuk scripting evaluasi ekspresi atau shell scripting ringan.
+
+6. Yogurt Mode: Random Response Engine.
+Perintah yogurt akan menghasilkan respons acak dari sistem, dari karakter "gurt".
+
+Contoh:
+```
+user> yogurt
+gurt> yo
+user> yogurt
+gurt> ts unami gng </3
+user> yogurt
+gurt> sygau
+```
+Menambahkan unsur humor, randomisasi, dan emotional touch yang jarang ditemui dalam terminal biasa.
